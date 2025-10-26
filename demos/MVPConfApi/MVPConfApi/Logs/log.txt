@@ -1,0 +1,118 @@
+2025-10-25 16:42:33.811 -03:00 [INF] Log filename: c:\logs\vssummitApi\2025-10-25_16.log - Level: Debug
+2025-10-25 16:42:34.682 -03:00 [DBG] Hosting starting
+2025-10-25 16:42:34.925 -03:00 [DBG] Failed to locate the development https certificate at 'C:\Users\marci\AppData\Roaming\ASP.NET\https\MvpConfApi.pfx'.
+2025-10-25 16:42:35.063 -03:00 [DBG] Connection id "0HNGJVQIM8K80" accepted.
+2025-10-25 16:42:35.063 -03:00 [DBG] Connection id "0HNGJVQIM8K81" accepted.
+2025-10-25 16:42:35.064 -03:00 [INF] Now listening on: https://localhost:7153
+2025-10-25 16:42:35.069 -03:00 [DBG] Connection id "0HNGJVQIM8K80" started.
+2025-10-25 16:42:35.069 -03:00 [DBG] Connection id "0HNGJVQIM8K81" started.
+2025-10-25 16:42:35.070 -03:00 [INF] Now listening on: http://localhost:5216
+2025-10-25 16:42:35.074 -03:00 [DBG] Loaded hosting startup assembly MvpConfApi
+2025-10-25 16:42:35.076 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-25 16:42:35.081 -03:00 [DBG] Connection id "0HNGJVQIM8K81" reset.
+2025-10-25 16:42:35.081 -03:00 [DBG] Connection id "0HNGJVQIM8K80" reset.
+2025-10-25 16:42:35.081 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-25 16:42:35.089 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-25 16:42:35.100 -03:00 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+ ---> System.Net.Sockets.SocketException (10054): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-25 16:42:35.105 -03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-25 16:42:35.100 -03:00 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+ ---> System.Net.Sockets.SocketException (10054): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-25 16:42:35.158 -03:00 [DBG] Connection id "0HNGJVQIM8K80" stopped.
+2025-10-25 16:42:35.158 -03:00 [DBG] Connection id "0HNGJVQIM8K81" stopped.
+2025-10-25 16:42:35.165 -03:00 [DBG] Connection id "0HNGJVQIM8K80" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-25 16:42:35.165 -03:00 [DBG] Connection id "0HNGJVQIM8K81" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-25 16:42:35.445 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-25 16:42:35.450 -03:00 [INF] Hosting environment: Development
+2025-10-25 16:42:35.452 -03:00 [INF] Content root path: E:\particular\Palestras\mvp conf 2025\mvpconf2025\palestra-2-minimal-api\mvpConf2025\src\VsSummitApi\VsSummitApi
+2025-10-25 16:42:35.454 -03:00 [DBG] Hosting started
+2025-10-25 16:42:36.106 -03:00 [DBG] Connection id "0HNGJVQIM8K82" accepted.
+2025-10-25 16:42:36.119 -03:00 [DBG] Connection id "0HNGJVQIM8K83" accepted.
+2025-10-25 16:42:36.119 -03:00 [DBG] Connection id "0HNGJVQIM8K82" started.
+2025-10-25 16:42:36.129 -03:00 [DBG] Connection id "0HNGJVQIM8K83" started.
+2025-10-25 16:42:36.183 -03:00 [DBG] Connection id "0HNGJVQIM8K83" received FIN.
+2025-10-25 16:42:36.196 -03:00 [DBG] Connection 0HNGJVQIM8K82 established using the following protocol: "Tls13"
+2025-10-25 16:42:36.196 -03:00 [DBG] Connection 0HNGJVQIM8K83 established using the following protocol: "Tls13"
+2025-10-25 16:42:36.252 -03:00 [DBG] Connection id "0HNGJVQIM8K83" is closed. The last processed stream ID was 0.
+2025-10-25 16:42:36.256 -03:00 [DBG] Connection id "0HNGJVQIM8K83" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-25 16:42:36.268 -03:00 [DBG] The connection queue processing loop for 0HNGJVQIM8K83 completed.
+2025-10-25 16:42:36.277 -03:00 [DBG] Connection id "0HNGJVQIM8K83" stopped.
+2025-10-25 16:42:36.307 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2025-10-25 16:42:36.484 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-25 16:42:36.520 -03:00 [DBG] No candidates found for the request path '/swagger'
+2025-10-25 16:42:36.523 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:36.536 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 232.1397ms
+2025-10-25 16:42:36.546 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2025-10-25 16:42:36.551 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-10-25 16:42:36.553 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:36.600 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-25 16:42:36.603 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-25 16:42:36.630 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-25 16:42:36.634 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-25 16:42:36.636 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2025-10-25 16:42:36.639 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2025-10-25 16:42:36.636 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2025-10-25 16:42:36.636 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2025-10-25 16:42:36.636 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2025-10-25 16:42:36.641 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 95.0539ms
+2025-10-25 16:42:36.651 -03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-10-25 16:42:36.652 -03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-10-25 16:42:36.664 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 28.4145ms
+2025-10-25 16:42:36.663 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:36.665 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:36.653 -03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-10-25 16:42:36.672 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:36.704 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-10-25 16:42:36.704 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-10-25 16:42:36.712 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 76.4565ms
+2025-10-25 16:42:36.714 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 143943 text/css 78.2483ms
+2025-10-25 16:42:36.718 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-10-25 16:42:36.723 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 86.8560ms
+2025-10-25 16:42:36.736 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 100.4183ms
+2025-10-25 16:42:36.880 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2025-10-25 16:42:36.883 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-25 16:42:36.886 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:36.895 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.0491ms
+2025-10-25 16:42:36.898 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2025-10-25 16:42:36.901 -03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-10-25 16:42:36.903 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:36.905 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-10-25 16:42:36.911 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 12.6581ms
+2025-10-25 16:42:39.092 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2025-10-25 16:42:39.100 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-25 16:42:39.103 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:39.110 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.1536ms
+2025-10-25 16:42:39.135 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7153/favicon.ico - -
+2025-10-25 16:42:39.139 -03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-10-25 16:42:39.143 -03:00 [DBG] Request did not match any endpoints
+2025-10-25 16:42:39.146 -03:00 [DBG] The request path  does not match the path filter
+2025-10-25 16:42:39.149 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7153/favicon.ico - - - 404 0 - 13.8307ms
+2025-10-25 16:42:41.064 -03:00 [DBG] Connection id "0HNGJVQIM8K82" received FIN.
+2025-10-25 16:42:41.067 -03:00 [DBG] Connection id "0HNGJVQIM8K82" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-25 16:42:41.067 -03:00 [DBG] Connection id "0HNGJVQIM8K82" is closed. The last processed stream ID was 21.
+2025-10-25 16:42:41.075 -03:00 [DBG] The connection queue processing loop for 0HNGJVQIM8K82 completed.
+2025-10-25 16:42:41.078 -03:00 [DBG] Connection id "0HNGJVQIM8K82" stopped.
