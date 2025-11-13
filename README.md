@@ -19,6 +19,11 @@ Uma experiência única de aprendizado, networking e inspiração, junto com lí
 - Entity Framework updates
 - Worker Services
 
+### Fotos
+Veja as fotos em: [fotos/dia1](./fotos/dia1/20251024_104126.jpg)
+[fotos/dia1](./fotos/dia1/20251024_112648.jpg)
+[fotos/dia1](./fotos/dia1/20251024_112650.jpg)
+
 ### 25/10 - Trilha Desenvolvimento (14:00)
 **Construa API´S somente usando minimal Api´s no .NET**
 - Construção de APIs completas
@@ -27,6 +32,14 @@ Uma experiência única de aprendizado, networking e inspiração, junto com lí
 - Rate Limit
 - Cache
 - Performance otimizada
+
+### Fotos
+Veja as fotos em: [fotos/dia2](./fotos/dia2/1761620066900.jfif)
+[fotos/dia2](./fotos/dia2/20251025_160219.jpg)
+[fotos/dia2](./fotos/dia2/20251025_160649.jpg)
+[fotos/dia2](./fotos/dia2/WhatsApp%20Image%202025-10-25%20at%2016.46.29%20(1).jpeg)
+[fotos/dia2](./fotos/dia2/WhatsApp%20Image%202025-10-25%20at%2016.46.29.jpeg)
+[fotos/dia2](./fotos/dia2/WhatsApp%20Image%202025-10-26%20at%2019.34.09%20(1).jpeg)
 
 ## Estrutura do Repositório
 - `/palestra-1-codigo-atual` - Slides e materiais das apresentações do dia 24/10
