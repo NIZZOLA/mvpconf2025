@@ -1,4 +1,4 @@
-# mvpconf2025
+# MVP Conf 2025
 Repositório para palestras e artefatos referentes ao MVP Conf 2025
 ## Sobre o Evento
 🚀 MVP Conf 2025 – O maior encontro de especialistas Microsoft do Brasil!
